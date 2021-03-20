@@ -23,6 +23,7 @@ module.exports = {
 		sourceType: 'module',
 	},
 	plugins: ['@typescript-eslint', 'prettier'],
+	ignorePatterns: ['temp'],
 	rules: {
 		'arrow-parens': [ERROR, 'as-needed'],
 		'default-case': [ERROR, { commentPattern: 'No Default' }],
